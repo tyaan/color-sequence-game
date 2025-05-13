@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Color Sequence Game",
   description: "Fun memory game! Try to recall color sequences.",
+  icons:{
+    icon: "/icons8-rainbow-16.png", 
+  }
 };
 
 export default function RootLayout({
